@@ -1,0 +1,28 @@
+.banner {
+     /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    height: 450px; /* Set height for the banner */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: left; /* Center content horizontally */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+  }
+  
+  .banner-content {
+    text-align: center; /* Center text */
+    margin-left: 100px;
+    color: #000;
+    width: 50%;
+  }
+  
+  .banner h1 {
+    font-size: 3rem; /* Large font size for the headline */
+    color: blueviolet;
+  }
+  
+  .banner p {
+    font-size: 1.5rem; /* Medium font size for the subtitle */
+    color: purple;
+  }
+  

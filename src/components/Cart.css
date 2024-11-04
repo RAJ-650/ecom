@@ -1,0 +1,27 @@
+/* src/components/Cart.css */
+.formcontainer {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    color: white;
+  }
+  

@@ -1,0 +1,26 @@
+.container {
+    /* height: 100vh;  */
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  input::placeholder {
+    color: #6c757d; /* Subtle placeholder color */
+  }
+  
+
+  body {
+    background-color: #f8f9fa; /* Light background color */
+}
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}

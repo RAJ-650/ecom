@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Latest gadgets and devices.",
+      "image": "images/flip1.png"
+    },
+    {
+      "id": 2,
+      "name": "Dress",
+      "description": "Trendy clothing and accessories.",
+      "image": "images/flip2.png"
+    },
+    {
+      "id": 3,
+      "name": "Home & Garden",
+      "description": "Home decor and gardening essentials.",
+      "image": "images/flip3.png"
+    }
+  ]
+  

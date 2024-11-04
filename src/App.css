@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main{
+  color:black;
+  /* background-color: thistle; */
+  background-color: #fef6e9;
+}
+
+main {
+  flex: 1; /* This allows the main content to expand and fill the space */
+}
+
+
+/* Purple background for the entire app */
+.bg-purple {
+  background-color: #6f42c1; /* Purple color */
+  color: #fff;
+}
+
+.text-purple {
+  color: #6f42c1; /* Purple color */
+}
+/* Navbar styles */
+.navbar-purple {
+  background-color: #6f42c1; /* Match the navbar with body */
+  /* margin: 20px 40px 10px 40px; */
+  padding:20px 20px;
+  /* border-bottom: 1px solid #e9ecef; */
+
+}
+
+.navbar-purple .navbar-brand,
+.navbar-purple .nav-link {
+  color: white; /* White text for navbar */
+}
+
+.navbar-purple .nav-link:hover {
+  color: #e9ecef; /* Lighter text on hover */
+}
+
+/* Footer styles */
+.footer {
+  padding: 1rem 0; /* Padding for the footer */
+  background-color: #6f42c1; /* Match footer with body */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Login form styles */
+.formcontainer {
+  max-width: 500px; /* Max width for the form container */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Padding around the form */
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+  margin-bottom: 20px; /* Space below headings */
+}
+
+.form-label {
+  font-weight: bold; /* Bold labels */
+}
+
+/* Footer text */
+.footer p {
+  margin: 0; /* Remove margin for footer text */
+}
+
+
+.bg-texture {
+  background-size: auto; /* or contain, depending on your needs */
+}
+
+.page-title-section {
+  background-color: #e9ecef;
+  color: #6f42c1; /* White text color */
+  padding: 20px; /* Padding for the section */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 20px; /* Space below this section */
+}
+
+.breadcrumb-container {
+  margin-bottom: 10px; /* Space between the breadcrumb and title */
+}
+
+.page-title {
+  font-size: 2.5rem; /* Large font size for title */
+  margin: 0; /* Remove default margin */
+}
+
+.page-subtitle {
+  font-size: 1.2rem; /* Subtitle font size */
+  margin-top: 10px; /* Space above subtitle */
+}
+
+/* styles.css */
+.text-purple {
+  color: #6f42c1; /* Bootstrap's purple color */
+}
+
+.btn-purple {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+  color:#fff;
+}
+
+.btn-purple:hover {
+  background-color: #5a31a0;
+  border-color: #5a31a0;
+  color:#fff;
+
+}
+
+/* Animation effects */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
